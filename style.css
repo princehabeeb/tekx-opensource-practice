@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(img/solar-panels2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+main section {
+  width: 50%;
+  height: 80%;
+  place-items: center;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  display: flex;
+}
+main section .left {
+  width: 50%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: start;
+  padding: 3rem 1rem;
+}
+main section .left .img {
+  width: 50%;
+}
+main section .left .img .img1 {
+  width: 100%;
+}
+main section .left .info {
+  margin-top: 4rem;
+}
+main section .left .info h3 {
+  text-align: center;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(126, 126, 236);
+  font-weight: bolder;
+}
+main section .left .info p {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-top: 2rem;
+}
+main section .left .input {
+  margin-top: 4rem;
+}
+main section .left .input .Login {
+  background-color: rgb(126, 126, 236);
+  border: none;
+  padding: 0.6rem 2rem;
+  border-radius: 0.2rem;
+}
+main section .left .input .Register {
+  background-color: rgb(126, 126, 236);
+  border: none;
+  padding: 0.6rem 2rem;
+  border-radius: 0.2rem;
+}
+main section .right {
+  width: 50%;
+  height: 100%;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.5);
+}/*# sourceMappingURL=style.css.map */
