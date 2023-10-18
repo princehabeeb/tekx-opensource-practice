@@ -12,7 +12,7 @@ We follow a [Code of Conduct](link/to/CODE_OF_CONDUCT.md) to foster an inclusive
 
 ## Getting Started
 
-1. **Fork the Repository:** Start by forking the Tekx-opensource practice Tech repository to your GitHub account.
+1. **Fork the Repository:** Start by forking the Tekx-opensource practice repository to your GitHub account.
 
 2. **Clone the Repository:** Clone your forked repository to your local development environment using `git clone`.
 
